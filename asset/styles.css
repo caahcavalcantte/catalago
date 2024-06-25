@@ -1,0 +1,242 @@
+@font-face {
+  font-family:'dreaming' ;
+  src: url('../fonts/dreaming-outloud-regular.otf') format(opentype);
+}
+
+
+
+/*  Início Página Home  */
+
+.home{
+  position: relative;
+  padding-top: 10px;
+}
+
+.home::before{
+  content: '';
+  position: absolute;
+  background-image: url('../images/imagem1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  padding-bottom: 50px;
+}
+
+.home h1{
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px 0px 8px;
+}
+
+.home p{
+  font-size: 15px;
+  font-weight: 100;
+  max-width: 300px ;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  
+}
+
+.menu_navegacao{
+  display: block;
+  text-align: center;
+  padding: 40px 20px 80px 20px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+
+.menu_navegacao li{
+  list-style: none;
+  margin: 10px;
+}
+
+.menu_navegacao a{
+  text-decoration: none;
+  background-color: #3C4A22;
+  color: #f0e4b5;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: block;
+  width: 210px;
+  opacity: 0.8;
+}
+
+/* Início das Paginas de Produtos */
+
+
+.catalago , .home{
+  background-color: #192422;
+  font-family: 'dreaming';
+  color: #f0e4b5;
+  max-width: 380px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*  Cabeçalho  */
+
+.titulo{
+  display: flex;
+}
+
+.titulo_produtos{
+  font-size: 50px;
+  font-weight: 100;
+  margin: 60px 0px 30px 20px; 
+}
+
+.img_pastel_glyph{
+  margin:0px 50px;
+  width: 180px;
+  height: 180px;
+}
+
+/*  Lista de itens sessão  */
+
+.produtos {
+  position: relative;
+  border: 2px solid #f0e4b5;
+  margin: 20px;
+  display: flex;
+  height: 400px;
+}
+
+.subtitulo_produtos {
+  font-weight: 100;
+  font-size: 16px;
+  margin-left: 113px;
+  margin-top: -42px;
+  position: absolute;
+}
+
+.sub_destilados, 
+.sub_semalcool{
+  margin-left: 105px;
+}
+
+.sub_refrigerantes{
+  margin-left: 86px;
+}
+
+
+.subtitulo_produtos h2 {
+  background-color: #192422;
+  border: 1px solid #f0e4b5;
+  padding: 5px 10px 5px 10px;
+}
+
+
+.lista_produtos{
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 40px 0px 50px 10px;
+}
+
+.lista_produtos p{
+  margin-bottom: 0px;
+}
+
+
+.lista_produtos span{
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ingredientes{
+  font-size: 10px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin: 2px 0px;
+}
+
+/*  Botões Comprar e voltar ao inicio  */
+
+.pedido{ 
+  margin: 40px 0px 10px 30px;
+}
+
+.pedido p{
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px 50px 0px;
+  position: relative;
+}
+
+.icon_whatsapp{
+  position: absolute;
+  margin: 7px 20px;
+}
+
+.btn_comprar{
+  padding: 10px 10px 10px 30px;
+}
+
+.btn_home{
+  padding: 10px;
+}
+
+.btn{
+  font-family: 'dreaming';
+  font-size: 16px;
+  width: 130px;
+  border: none;
+  background-color: #3C4A22;
+  color: #f0e4b5;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.img_drink{
+  transform: rotate(270deg);
+  height: 150px;
+  width: 100px;
+  margin-top: -83px;
+  margin-left: 140px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+/*  Rodapé  */
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.detalhe_direito {
+  content: '';
+  border: 1px solid #f0e4b5;
+  width: 80px;
+  margin-left: 20px;
+}
+.detalhe_esquerdo {
+  content: '';
+  border: 1px solid #f0e4b5;
+  width: 80px;
+  margin-right: 20px;
+  
+}
