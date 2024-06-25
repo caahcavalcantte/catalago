@@ -262,7 +262,7 @@
 .rodape {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .detalhe_direito {
